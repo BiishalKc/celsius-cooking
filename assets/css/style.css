@@ -1,0 +1,253 @@
+/*-------Arrow-Up-image---------*/
+
+.arrow-up-btn {
+    position: fixed;
+    top: 88%;
+    right: 2%;
+    cursor: pointer;
+    z-index: 999;
+}
+
+/*--------------------------------*/
+
+/*-------Nav-Hover-Effect--------*/
+
+.wp-block-navigation-item__content {
+    position: relative;
+}
+
+.wp-block-navigation-submenu__toggle {
+    display: none !important;
+}
+
+.wp-block-navigation-item__content::before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    width: 0%;
+    left: 0;
+    height: 2px;
+    background-color: #000;
+    transition: all 0.4s ease;
+}
+
+.wp-block-navigation-item__content:hover:before {
+    width: 100%;
+}
+
+.navbar{
+    border-bottom: 1px solid #eee;
+}
+
+/*------------------------------*/
+
+footer {
+    margin-top: unset;
+    border-top: 1px solid #eee;
+}
+
+.wp-block-post-featured-image:hover {
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+/*---------Site-Logo-----------*/
+
+.wp-block-site-logo img {
+    height: auto;
+    max-width: unset;
+}
+
+/*------------------------------*/
+
+/*------Search Button----------*/
+
+.wp-block-search__button {
+    margin: 0;
+    border: 2px solid #000;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.wp-block-search__input {
+    margin: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.wp-block-search__button:hover{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+/*------------------------------*/
+
+/*-------Categories List-----------*/
+
+.wp-block-categories-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: unset;
+}
+
+.wp-block-categories-list a {
+    text-decoration: none;
+}
+
+.cat-item-1 {
+    display: none;
+}
+
+.cat-item a {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    min-width: 100px;
+    display: inline-block;
+    border-radius: 8px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.cat-item a:hover {
+    background-color: #111;
+    color: #fff;
+}
+
+/*------------------------------*/
+
+/*-------Categories-----------*/
+
+.taxonomy-category a:hover {
+    text-decoration: underline;
+}
+
+.taxonomy-category::before{
+    content: '\f15b';
+    font-family: fontawesome;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+/*------------------------------*/
+
+
+/*----Guided-Cooking-and-Premium-induction----*/
+
+.guided-cooking-img {
+    margin-left: calc(-50vw + 50%) !important;
+}
+
+.premium-induction-img {
+    margin-right: calc(-50vw + 50%) !important;
+}
+
+.premium-induction-section {
+    overflow: hidden;
+}
+
+/*--------------------------------------------*/
+
+/*---------Responsive----------*/
+
+@media only screen and (max-width:1200px) {
+    .premium-induction-column-left {
+        padding: 0 1.5rem !important;
+    }
+}
+
+
+/*------------------------------*/
+
+/*------Slick-Slider-----------*/
+
+.slick-prev:before,
+.slick-next:before {
+    color: black !important;
+    font-size: 30px !important;
+    color: white !important;
+    background-color: black;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 16px !important;
+    z-index: 9999;
+}
+
+.slick-prev:before {
+    content: '\f100' !important;
+    font-family: fontawesome !important;
+}
+
+.slick-next:before {
+    content: '\f101' !important;
+    font-family: fontawesome !important;
+}
+
+.slick-next {
+    top: 18rem !important;
+    right: -15px !important;
+}
+
+.slick-prev {
+    top: 18rem !important;
+    left: -22px !important;
+}
+
+.slider .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+
+.slider .slick-active {
+    opacity: .5;
+}
+
+.slider .slick-current {
+    opacity: 1;
+}
+
+/*------------------------------*/
+
+/*-------Post-Navigation--------*/
+
+.post-navigation-link-previous a{
+    color: #eee;
+}
+
+.post-navigation-link-previous a:hover{
+    color: #000;
+}
+
+.post-navigation-link-next a{
+    color: #eee;
+}
+
+.post-navigation-link-next a:hover{
+    color: #000;
+}
+
+.wp-block-post-author-name::before{
+    padding-right: 10px;
+    content: '\f007';
+    font-family: fontawesome;
+    font-size: 18px;
+}
+
+.wp-block-post-date__modified-date::before{
+    padding-right: 5px;
+    content: '\f073';
+    font-family: fontawesome;
+    font-size: 18px;
+}
+
+/*------------------------------*/
