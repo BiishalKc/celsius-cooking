@@ -121,7 +121,7 @@ jQuery(document).ready(function ($) {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 950,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -129,7 +129,7 @@ jQuery(document).ready(function ($) {
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 600,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,

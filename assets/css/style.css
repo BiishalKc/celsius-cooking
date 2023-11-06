@@ -35,7 +35,7 @@
     width: 100%;
 }
 
-.navbar{
+.navbar {
     border-bottom: 1px solid #eee;
 }
 
@@ -64,7 +64,7 @@ footer {
 
 .wp-block-search__button {
     margin: 0;
-    border: 2px solid #000;
+    border: 2px solid #111;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-top-right-radius: 50px;
@@ -77,7 +77,8 @@ footer {
     border-bottom-left-radius: 5px;
 }
 
-.wp-block-search__button:hover{
+.wp-block-search__button:hover {
+    border: 2px solid #111;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-top-right-radius: 50px;
@@ -132,7 +133,7 @@ footer {
     text-decoration: underline;
 }
 
-.taxonomy-category::before{
+.taxonomy-category::before {
     content: '\f15b';
     font-family: fontawesome;
     padding-right: 10px;
@@ -220,30 +221,30 @@ footer {
 
 /*-------Post-Navigation--------*/
 
-.post-navigation-link-previous a{
+.post-navigation-link-previous a {
     color: #eee;
 }
 
-.post-navigation-link-previous a:hover{
+.post-navigation-link-previous a:hover {
     color: #000;
 }
 
-.post-navigation-link-next a{
+.post-navigation-link-next a {
     color: #eee;
 }
 
-.post-navigation-link-next a:hover{
+.post-navigation-link-next a:hover {
     color: #000;
 }
 
-.wp-block-post-author-name::before{
+.wp-block-post-author-name::before {
     padding-right: 10px;
     content: '\f007';
     font-family: fontawesome;
     font-size: 18px;
 }
 
-.wp-block-post-date__modified-date::before{
+.wp-block-post-date__modified-date::before {
     padding-right: 5px;
     content: '\f073';
     font-family: fontawesome;
@@ -251,3 +252,52 @@ footer {
 }
 
 /*------------------------------*/
+
+
+/*--------Products-items---------*/
+
+.home .products-column {
+    margin: 20px;
+    border-radius: 5px;
+}
+.products-column:hover{
+    z-index: 1;
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.2);
+    transform: scale(1.02);
+}
+
+.add-to-cart-button {
+    border: 2px solid #111;
+    border-radius: 10px;
+}
+
+.add-to-cart-button:hover {
+    border: 2px solid #111;
+}
+
+.is-style-fill {
+    width: 50%;
+}
+
+.shop-products-btn{
+    border-radius: 10px;
+    border: 2px solid #111;
+}
+
+
+.default-sorting{
+    font-size: 18px !important;
+}
+
+/*------------------------------*/
+@media (max-width: 1100px){
+    .wp-container-27.wp-container-27 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+/*------------------------------*/
+@media (max-width: 800px){
+    .wp-container-27.wp-container-27 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}

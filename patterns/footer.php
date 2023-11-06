@@ -13,7 +13,7 @@
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":453,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="http://localhost/wordpress/wp-content/themes/Celsius-Cooking/assets/images/asko-logo.png" alt="" class="wp-image-453"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/asko-logo.png" alt="" class="wp-image-453"/></figure>
 <!-- /wp:image -->
 <!-- wp:template-part {"slug":"gtranslate","theme":"Celsius-Cooking"} /-->
 </div>
@@ -33,6 +33,6 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"id":1848,"width":"40px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"0px","style":"none"}},"className":"arrow-up-btn"} -->
-<figure class="wp-block-image size-full is-resized has-custom-border arrow-up-btn" id="scroll-up-btn"><img src="http://localhost/wordpress/wp-content/themes/Celsius-Cooking/assets/images/arrow-up.png" alt="" class="wp-image-1848" style="border-style:none;border-width:0px;aspect-ratio:1;object-fit:cover;width:40px"/></figure>
+<figure class="wp-block-image size-full is-resized has-custom-border arrow-up-btn" id="scroll-up-btn"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/arrow-up.png" alt="" class="wp-image-1848" style="border-style:none;border-width:0px;aspect-ratio:1;object-fit:cover;width:40px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
