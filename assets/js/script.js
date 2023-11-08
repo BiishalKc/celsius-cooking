@@ -141,4 +141,9 @@ jQuery(document).ready(function ($) {
             // instead of a settings object
         ]
     });
+
+    // Match Height js 
+
+    $('.products-column').matchHeight();
+
 });  
