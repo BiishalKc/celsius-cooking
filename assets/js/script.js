@@ -142,6 +142,15 @@ jQuery(document).ready(function ($) {
         ]
     });
 
+    $('.slider-2').slick({
+        dots: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        speed: 1000,
+        infinite: true
+    });
+
+
     // Match Height js 
 
     $('.products-column').matchHeight();

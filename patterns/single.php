@@ -95,7 +95,7 @@
 <h2 class="wp-block-heading">Categories</h2>
 <!-- /wp:heading -->
 
-<!-- wp:categories /--></div>
+<!-- wp:categories {"style":{"typography":{"fontSize":"18px"}}} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|60","left":"var:preset|spacing|60","top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}},"border":{"radius":"20px"}},"backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
@@ -111,7 +111,7 @@
 <h2 class="wp-block-heading">Latest Posts</h2>
 <!-- /wp:heading -->
 
-<!-- wp:latest-posts {"style":{"typography":{"fontSize":"18px"}}} /--></div>
+<!-- wp:latest-posts {"style":{"typography":{"fontSize":"18px"},"spacing":{"padding":{"left":"2.4rem"}}}} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

@@ -76,6 +76,7 @@
         "border": {
           "radius": "5px",
           "style" : "solid",
+          "color": "var(--wp--preset--color--primary)",
           "width": "2px"
         },
         "color": {
