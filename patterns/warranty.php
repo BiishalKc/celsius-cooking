@@ -23,7 +23,7 @@
 <div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":1222,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="http://localhost/wordpress/wp-content/themes/Celsius-Cooking/assets/images/document-white.jpg" alt="" class="wp-image-1222"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/document-white.jpg" alt="" class="wp-image-1222"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
@@ -33,7 +33,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":1223,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="http://localhost/wordpress/wp-content/themes/Celsius-Cooking/assets/images/document-white.jpg" alt="" class="wp-image-1223"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/document-white.jpg" alt="" class="wp-image-1223"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->

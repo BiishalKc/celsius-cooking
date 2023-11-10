@@ -383,13 +383,13 @@ li {
     padding-right: 5px;
 }
 
-.packages-columns{
+.packages-columns {
     display: grid !important;
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 @media (max-width: 1000px) {
-    .packages-columns{
+    .packages-columns {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -404,26 +404,28 @@ li {
 
 /*------------------------------*/
 
-.shop-now-link::after{
+/*--------Shop-now-columns-------*/
+
+.shop-now-link::after {
     content: '\f061';
     font-family: fontawesome;
     padding: 3px 0 0 15px;
 }
 
-.shop-now{
+.shop-now {
     border-bottom: 1px solid #eee;
     padding-bottom: 10px;
 }
 
-.shop-now a:hover{
+.shop-now a:hover {
     color: #111;
 }
 
-.shop-now-link:hover::after{
+.shop-now-link:hover::after {
     color: #111;
 }
 
-.categories-list li{
+.categories-list li {
     padding-top: 7px;
     padding-bottom: 7px;
     border-bottom: 1px solid #a8a8a8;
@@ -431,7 +433,7 @@ li {
     font-size: clamp(0.625rem, 0.4489rem + 0.7512vw, 1.125rem);
 }
 
-.shop-now-btn::after{
+.shop-now-btn::after {
     content: '\f061';
     font-family: fontawesome;
     font-size: 25px;
@@ -439,62 +441,87 @@ li {
     color: #fff;
 }
 
-.cat-item-10::before{
+.cat-item-10::before {
     content: '\f7b6';
     font-family: fontawesome;
     padding-right: 5px;
 }
 
-.cat-item-18::before{
+.cat-item-18::before {
     content: '\f57b';
     font-family: fontawesome;
     padding-right: 5px;
 }
 
-.cat-item-19::before{
+.cat-item-19::before {
     content: '\f2e7';
     font-family: fontawesome;
     padding-right: 5px;
 }
 
-.cat-item-20::before{
+.cat-item-20::before {
     content: '\f578';
     font-family: fontawesome;
     padding-right: 5px;
 }
 
-.cat-item-17::before{
+.cat-item-17::before {
     content: '\e2eb';
     font-family: fontawesome;
     padding-right: 5px;
 }
 
-.cat-item-21::before{
+.cat-item-21::before {
     content: '\f805';
     font-family: fontawesome;
     padding-right: 5px;
 }
 
-.cat-item-22::before{
+.cat-item-22::before {
     content: '\f7ef';
     font-family: fontawesome;
     padding-right: 5px;
 }
 
-.cat-item-23::before{
+.cat-item-23::before {
     content: '\f5d1';
     font-family: fontawesome;
     padding-right: 5px;
 }
 
-.cat-item-1::before{
+.cat-item-1::before {
     content: '\f03a';
     font-family: fontawesome;
     padding-right: 5px;
 }
 
-.cat-item-24::before{
+.cat-item-24::before {
     content: '\f787';
     font-family: fontawesome;
     padding-right: 5px;
 }
+
+/*------------------------------*/
+
+/*-----Customer-review-columns---*/
+
+.customer-review-columns {
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+@media (max-width: 1000px) {
+    .customer-review-columns {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .customer-review-columns {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+/*------------------------------*/

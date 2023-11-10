@@ -29,7 +29,7 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:post-featured-image {"isLink":true,"width":"","height":"250px","style":{"spacing":{"padding":{"right":"0","left":"0"},"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} /-->
 
-<!-- wp:post-title {"level":3,"isLink":true,"style":{"typography":{"lineHeight":"1.5"}}} /-->
+<!-- wp:post-title {"level":3,"isLink":true,"style":{"typography":{"lineHeight":"1.5","fontStyle":"normal","fontWeight":"700"}}} /-->
 
 <!-- wp:post-excerpt {"excerptLength":20} /-->
 
@@ -157,7 +157,7 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:post-featured-image {"isLink":true,"width":"","height":"250px","style":{"spacing":{"padding":{"right":"0","left":"0"},"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} /-->
 
-<!-- wp:post-title {"level":3,"isLink":true,"style":{"typography":{"lineHeight":"1.5"}}} /-->
+<!-- wp:post-title {"level":3,"isLink":true,"style":{"typography":{"lineHeight":"1.5","fontStyle":"normal","fontWeight":"700"}}} /-->
 
 <!-- wp:post-excerpt {"excerptLength":20} /-->
 
@@ -183,7 +183,7 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:post-featured-image {"isLink":true,"width":"","height":"250px","style":{"spacing":{"padding":{"right":"0","left":"0"},"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} /-->
 
-<!-- wp:post-title {"level":3,"isLink":true,"style":{"typography":{"lineHeight":"1.5"}}} /-->
+<!-- wp:post-title {"level":3,"isLink":true,"style":{"typography":{"lineHeight":"1.5","fontStyle":"normal","fontWeight":"700"}}} /-->
 
 <!-- wp:post-excerpt {"excerptLength":20} /-->
 
