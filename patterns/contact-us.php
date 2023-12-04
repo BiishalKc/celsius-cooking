@@ -218,7 +218,7 @@
 
 <!-- wp:group {"className":"shop-now","layout":{"type":"constrained"}} -->
 <div class="wp-block-group shop-now"><!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","className":"shop-now-link"} -->
-<p class="shop-now-link has-secondary-color has-text-color has-link-color" style="font-size:18px"><a href="http://localhost/wordpress/shop/" data-type="page" data-id="2385">Shop Now </a></p>
+<p class="shop-now-link has-secondary-color has-text-color has-link-color" style="font-size:18px"><a href="#" data-type="page" data-id="2385">Shop Now </a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div></div>
